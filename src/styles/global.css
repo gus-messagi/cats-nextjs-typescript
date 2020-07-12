@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap');
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 64px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cat-div {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 300px;
+    padding: 24px;
+    background-color: #fafafa;
+    border-radius: 2px;
+    color: #111111;
+    margin: 16px;
+    -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.05);
+    box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.05);
+}
+
+.cat-div img {
+    width: 300px;
+}
+
+.cat-div h1 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 16px 0;
+}
+
+.cat-div h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.cat-div p {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.cat-div h2, .cat-div p {
+    color: #2b2b2b;
+}
+
+.cat-country-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cat-country-div img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.cat-button-div {
+    margin-top: auto;
+}
+
+.cat-button-div .cat-button-component a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.cat-button-div .cat-button-component {
+    background-color: #602bff;
+    padding: 16px 8px;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
